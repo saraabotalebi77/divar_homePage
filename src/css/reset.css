@@ -1,0 +1,82 @@
+@font-face {
+  font-family: IranSans;
+  src: url("../assets/fonts/iran-sans/Sans\ a4fran3.eot"),
+    url("../assets/fonts/iran-sans/Sans\ a4fran3.svg"),
+    url("../assets/fonts/iran-sans/Sans\ a4fran3.ttf"),
+    url("../assets/fonts/iran-sans/Sans\ a4fran3.woff");
+}
+:root {
+  --black-alpha-80: rgba(0, 0, 0, 0.871);
+  --black-alpha-65: rgba(0, 0, 0, 0.651);
+  --black-alpha-50: rgba(0, 0, 0, 0.561);
+  --black-alpha-43: rgba(0, 0, 0, 0.431);
+  --black-alpha-32: rgba(0, 0, 0, 0.32);
+  --black-alpha-12: rgba(0, 0, 0, 0.122);
+  --black-alpha-03: rgba(0, 0, 0, 0.039);
+  --white-97: hsl(0, 0%, 97%);
+  --red-166: rgb(166, 38, 38);
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: IranSans;
+  color: var(--black-alpha-50);
+  direction: rtl;
+}
+a {
+  text-decoration: none !important;
+  color: var(--black-alpha-50) !important;
+}
+button {
+  color: var(--black-alpha-50);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+/* clears the ‘X’ icon of search input from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.ion-icon {
+  --ionicon-stroke-width: 6rem;
+  font-size: 1.5rem !important;
+  transition: color 0.5s;
+}
+.icon {
+  font-size: 1.4rem;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+.float-right {
+  float: right;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.vertical-algin-middle {
+  vertical-align: middle;
+}
+.m-s-4px {
+  margin-right: 0.4rem;
+}

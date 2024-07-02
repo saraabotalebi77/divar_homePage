@@ -1,0 +1,115 @@
+main {
+  max-width: calc(100% - 250px);
+  width: 79%;
+  float: left;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.main-title {
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.advertisements-container {
+  width: 100%;
+  margin: 1rem auto;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 0;
+}
+
+.advertisement {
+  width: calc(calc(100% / 3) - 20px);
+  min-width: 300px;
+  height: 150px;
+  margin: 1rem;
+  border: 1px solid var(--black-alpha-12);
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.advertisement-link {
+  width: 100%;
+  height: 100%;
+}
+
+.advertisement-image-wrapper {
+  width: 40%;
+  height: 100%;
+  border-radius: 0.4rem;
+  float: left;
+  background-image: url("../assets/images/no-image.svg"),
+    linear-gradient(rgb(243, 243, 243), rgb(243, 243, 243));
+  background-size: 30px 30px, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.advertisement-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.4rem;
+  object-fit: cover;
+}
+
+.advertisement-link>div:first-child {
+  width: 59%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+
+.advertisement-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2;
+  margin: 0;
+  color: var(--black-alpha-80);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.advertisement-description-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.advertisement-location-wrapper {
+  overflow: hidden;
+}
+
+.advertisement-location-wrapper>.ion-icon-wrapper {
+  float: left;
+}
+
+.advertisement-description,
+.advertisement-price {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.advertisement-location {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.high-light-text {
+  color: var(--red-166);
+}

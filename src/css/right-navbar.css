@@ -1,0 +1,128 @@
+.right-navbar {
+  min-width: 250px;
+  width: 21%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  overflow: auto;
+  font-size: 1.2rem;
+  padding: 9rem 1rem 2.5rem 1rem;
+  background-color: #fff;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.right-navbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.right-navbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.category-menu-title {
+  color: var(--black-alpha-80);
+  font-size: 1.2rem;
+}
+.category-menu .list-item-link {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  transition: color 0.5s;
+}
+.category-menu .list-item-link:hover {
+  color: var(--black-alpha-80) !important;
+}
+.category-menu .icon-wrapper {
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+}
+.price-advertisementStatus-container {
+  border-top: 1px solid var(--black-alpha-12);
+  border-bottom: 1px solid var(--black-alpha-12);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--black-alpha-80);
+  font-weight: bold;
+}
+.price-advertisementStatus-container > div {
+  padding: 1.5rem 0.5rem;
+}
+.price-advertisementStatus-container span:first-child .icon {
+  color: var(--black-alpha-50);
+  margin-top: 0.5rem;
+}
+.price-container {
+  border-bottom: 1px solid var(--black-alpha-12);
+}
+.about-website-menu {
+  padding: 1rem 0.5rem;
+}
+.about-website-menu .list-item {
+  line-height: 3;
+  margin: 0 0.5rem;
+}
+.about-website-menu .list-item-link {
+  transition: color 0.5s;
+}
+.about-website-menu .list-item-link:hover {
+  color: var(--black-alpha-80) !important;
+}
+.social-networks-menu {
+  text-align: center;
+  font-size: 0;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.social-networks-menu > .list-item {
+  margin: 0 1.5rem;
+}
+.social-networks-menu .list-item-link {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.twitter {
+  background: url("https://api.iconify.design/mdi/twitter.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+    no-repeat center center / contain;
+}
+.instagram {
+  background: url("https://api.iconify.design/ph/instagram-logo-fill.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+    no-repeat center center / contain;
+}
+.linkedin {
+  background: url("https://api.iconify.design/carbon/logo-linkedin.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+    no-repeat center center / contain;
+}
+.aparat {
+  background: url("https://api.iconify.design/simple-icons/aparat.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+    no-repeat center center / contain;
+}
+.social-networks-menu .twitter:hover {
+  background: url("https://api.iconify.design/mdi/twitter.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+    no-repeat center center / contain;
+}
+.social-networks-menu .instagram:hover {
+  background: url("https://api.iconify.design/ph/instagram-logo-fill.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+    no-repeat center center / contain;
+}
+.social-networks-menu .linkedin:hover {
+  background: url("https://api.iconify.design/ri/linkedin-box-fill.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+    no-repeat center center / contain;
+}
+.social-networks-menu .aparat:hover {
+  background: url("https://api.iconify.design/simple-icons/aparat.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+    no-repeat center center / contain;
+}
+.website-security-menu {
+  overflow: hidden;
+}
+.website-security-menu .list-item {
+  float: left;
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem 0.5rem;
+}
+.website-security-menu .list-item-link {
+  width: 100%;
+  height: 100%;
+}
